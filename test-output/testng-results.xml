@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="48" started-at="2022-07-04T19:51:49 IST" finished-at="2022-07-04T19:51:49 IST">
+    <groups>
+    </groups>
+    <test name="EXTENT5" duration-ms="48" started-at="2022-07-04T19:51:49 IST" finished-at="2022-07-04T19:51:49 IST">
+      <class name="ParllelTests.Test1">
+        <test-method status="PASS" signature="A1()[pri:0, instance:ParllelTests.Test1@210366b4]" name="A1" duration-ms="6" started-at="2022-07-04T19:51:49 IST" finished-at="2022-07-04T19:51:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A1 -->
+        <test-method status="PASS" signature="A2()[pri:0, instance:ParllelTests.Test1@210366b4]" name="A2" duration-ms="0" started-at="2022-07-04T19:51:49 IST" finished-at="2022-07-04T19:51:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A2 -->
+        <test-method status="PASS" signature="A3()[pri:0, instance:ParllelTests.Test1@210366b4]" name="A3" duration-ms="0" started-at="2022-07-04T19:51:49 IST" finished-at="2022-07-04T19:51:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A3 -->
+        <test-method status="PASS" signature="A4()[pri:0, instance:ParllelTests.Test1@210366b4]" name="A4" duration-ms="0" started-at="2022-07-04T19:51:49 IST" finished-at="2022-07-04T19:51:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A4 -->
+        <test-method status="PASS" signature="A5()[pri:0, instance:ParllelTests.Test1@210366b4]" name="A5" duration-ms="0" started-at="2022-07-04T19:51:49 IST" finished-at="2022-07-04T19:51:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A5 -->
+      </class> <!-- ParllelTests.Test1 -->
+    </test> <!-- EXTENT5 -->
+  </suite> <!-- Default Suite -->
+</testng-results>

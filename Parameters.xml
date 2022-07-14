@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="browsername" value="chrome"/>
+    <parameter name="username" value="Admin"/>
+    <parameter name="password" value="admin123"/>
+    <test verbose="2" preserve-order="true" name="C:/Users/madhu/EXTENT5" enabled="false">
+        <parameter name="url" value="https://opensource-demo.orangehrmlive.com/"/>
+        <parameter name="username" value="Admin1"/>
+        <parameter name="password" value="admin123"/>
+        <classes>
+            <class name="TestNg.ParametersDemo">
+                <methods>
+                    <include name="launchURL"/>
+                    <include name="LoginPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Madhu">
+        <classes>
+            <class name="TestNg.ParametersDemo">
+                <methods>
+                    <include name="launchURL"/>
+                    <include name="LoginPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+
+

@@ -1,0 +1,13 @@
+{
+  "theme": "DARK",
+  "encoding": "utf-8",
+  "protocol": "HTTPS",
+  "timelineEnabled": false,
+  "offlineMode": true,
+  "thumbnailForBase64": false,
+  "documentTitle": "TestingDocument",
+  "reportName": "Testing Report",
+  "timeStampFormat": "dd-MMM-yyyy HH:mm:ss a",
+  "js": "document.getElementByClassName('Logo')[0].style.display='none';",
+  "css": ".badge-primary {background-color: darkred;}"
+}
