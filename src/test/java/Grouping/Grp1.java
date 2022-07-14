@@ -6,6 +6,8 @@ public class Grp1 {
     @Test(groups = {"smoke","functional"})
     public void Test1(){
         System.out.println(1);
+        System.out.println(System.getProperty("userName"));
+        System.out.println(System.getProperty("password"));
     }
     @Test(groups = {"smoke","sanity"})
     public void Test2(){
